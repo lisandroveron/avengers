@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-icon-57x57.png" />
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-icon-60x60.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-icon-72x72.png" />
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-icon-76x76.png" />
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-icon-114x114.png" />
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-icon-120x120.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-icon-144x144.png" />
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-icon-152x152.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-icon-180x180.png" />
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/favicon/android-icon-192x192.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/assets/favicon/favicon-96x96.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/assets/favicon/favicon-16x16.png" />
+    <link rel="manifest" href="/assets/favicon/manifest.json" />
+    <meta name="msapplication-TileColor" content="#ffffff" />
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Registrarse</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="/index.html">Inicio</a>
+        <a href="/pages/personajes.html">Personajes</a>
+        <a href="/pages/galeria.html">Galería</a>
+        <a href="/pages/info.html">Registrarse</a>
+      </nav>
+    </header>
+    <main>
+      <h1 class="titulo">Registrarse</h1>
+      <form>
+        <fieldset>
+          <legend>Datos personales</legend>
+          <label for="nombre">Nombre</label>
+          <input id="nombre" />
+          <label for="apellido">Apellido</label>
+          <input id="apellido" />
+          <label for="nacimiento">Fecha de nacimiento</label>
+          <input id="nacimiento" type="date" />
+          <h2>Género</h2>
+          <label>Dominante</label>
+          <input type="radio" name="genero" value="masculino" />
+          <label>Mujer</label>
+          <input type="radio" name="genero" value="mujer" />
+          <label>Conejo no binario</label>
+          <input type="radio" name="conejo-no-binario" value="conejo-no-binario" />
+        </fieldset>
+        <fieldset>
+          <legend>Conocimientos</legend>
+          <h2>Lenguajes que conoces</h2>
+          <label>HTML</label>
+          <input type="checkbox" name="lenguajes" value="html" />
+          <label>CSS</label>
+          <input type="checkbox" name="lenguajes" value="css" />
+          <label>JavaScript</label>
+          <input type="checkbox" name="lenguajes" value="javascript" />
+          <label>Nivel</label>
+          <select name="nivel">
+            <option value="basico">Básico</option>
+            <option value="intermedio">Intermedio</option>
+            <option value="avanzado">Avanzado</option>
+          </select>
+        </fieldset>
+        <button>Enviar formulario</button>
+      </form>
+    </main>
+    <footer>Marvel's Avengers</footer>
+  </body>
+</html>
