@@ -1,14 +1,9 @@
-/* color: rgb(22, 22, 22); (negro)
-color: rgb(3, 111, 182); (azul)
-color: rgb(0, 166, 84); (verde)
-color: rgb(220, 30, 30); (rojo)
-box-shadow: unset/inset eje-x eje-y desenfoque tamaño color */
-* {
-    box-sizing: border-box;
-  }
-body {
+﻿body {
     background-color: rgb(22, 22, 22);
     color: white;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 860px;
   }
 body * {
     margin-top: 0px;
@@ -27,18 +22,18 @@ main {
     margin-right: auto;
     max-width: 90%;
   }
-.tarjeta {
-    background-color: rgb(36, 36, 36);
-    border-radius: 10px;
-    margin-bottom: 3px;
-    padding: 10px;
-  }
-.titulo,
+/* ### CLASES ### */
 .tarjeta-titulo,
 h1,
 h2 {
     color: rgb(220, 30, 30);
     text-align: center;
+  }
+.tarjeta {
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    margin-bottom: 3px;
+    padding: 10px;
   }
 .tarjeta-subtitulo {
     color: rgb(3, 111, 182);
@@ -60,4 +55,11 @@ picture source + img {
 .galeria-video,
 .galeria-audio {
     text-align: center;
+  }
+table,
+td {
+    border: 1px solid rgb(220, 30, 30);
+  }
+caption {
+    font-size: 2rem;
   }
